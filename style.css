@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    font-family: Cairo;
+
+}
+
+*::selection {
+    background-color: hsl(271, 100%, 64%);
+    color: rgb(66, 2, 118);
+}
+
+body {
+    background-color: rgb(235, 233, 233);
+    color: rgb(24, 21, 21);
+    text-transform: capitalize;
+}
+
+
+
+button {
+    background-color: hsl(271, 76%, 60%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a {
+    color: rgb(24, 21, 21);
+}
+
+
+
+button:hover {
+    background-color: rgb(89, 1, 172);
+    transform: scale(1.05);
+}
+
+button:active {
+    font-size: 17px;
+    background-color: rgb(17, 20, 233);
+}
+
+
+
+
+.html {
+    font-size: larger;
+}
+
+
+
+#htmlp::after {
+    content: "✔️";
+}
+
+
+
+#cssp::after {
+    content: "✔️";
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(188, 88, 247);
+    border-radius: 50%;
+}
+
+
+#herop2 {
+    color: rgb(99, 4, 188);
+}
+
+#herop2::first-letter {
+    font-size: 25px;
+}
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(99, 4, 188);
+    transition: 0.3s;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+
+.about-card {
+    background-color: white;
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+
+.hero {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 25px 40px;
+    background-color: white;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.hero-info {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.hero-text {
+    text-align: right;
+}
+.hero-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+#lll {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+.continer {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#msd {
+    text-align: center;
+    color: rgb(99, 4, 188);
+    
+}
+
+#Project {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#Project h3 {
+    color: rgb(99, 4, 188);
+}
+
+#Project p {
+    color: rgb(99, 4, 188);
+    font-weight: bold;
+}
+
+
+
+footer {
+    background-color: rgb(44, 41, 41);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+#jsp::after {
+    content: "⌛";
+}
+
+
+
+footer a:hover {
+
+    border-radius: 12px;
+    color: rgb(24, 21, 21);
+    ;
+
+    animation-name: grew;
+    animation-duration: 2s;
+}
+
+@keyframes grew {
+    100% {
+        transform: scale(1.15, 1.15)
+    }
+}
+
+
+header {
+    padding: 10px 30px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.about-card li {
+    margin-bottom: 8px;
+}
+
+
+.html,
+.css,
+.js {
+    background-color: white;
+    width: 30%;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+.html:hover,
+.css:hover,
+.js:hover {
+    transform: translateY(-5px);
+}
+@media (max-width: 768px) {
+
+    .continer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .html,
+    .css,
+    .js {
+        width: 90%;
+    }
+
+    .hero {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .about-card,
+    #Project {
+        width: 95%;
+    }
+}
+.hero {
+    flex-direction: column;
+}
+
+.hero-info {
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-text {
+    text-align: center;
+}
+.about-card,
+.html,
+.css,
+.js,
+#Project {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}

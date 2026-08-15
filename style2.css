@@ -1,0 +1,146 @@
+* {
+    background-color: #F5F1E8;
+    font-family: Tajawal;
+    text-transform: capitalize;
+}
+
+a {
+    color: hsl(26, 40%, 39%);
+}
+
+a:hover {
+
+    border-radius: 12px;
+    text-decoration: underline;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    color: #4A3629;
+}
+
+nav a {
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    color: #3C2F2F;
+    font-family: Tajawal;
+    font-weight: 700px;
+}
+
+h3 {
+    color: #4A3629;
+    font-family: Tajawal;
+    font-weight: 400px;
+}
+
+#note {
+    margin: -40px auto 0;
+    display: block;
+
+}
+
+.diary-card {
+    border-radius: 18px;
+    max-width: 900px;
+    text-align: right;
+    background-color: #fffdf8;
+    padding: 30px;
+    margin: 50px auto;
+    width: 70%;
+    
+   box-shadow: 0 5px 15px rgba(74, 54, 41, 0.12);
+}
+
+.diary-card h2 {
+    font-family: Tajawal;
+    font-weight: 700;
+    color: #3C2F2F;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.diary-card .date {
+    font-family: Tajawal;
+    font-weight: 500;
+    color: #8a7a6a;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.diary-card .tag {
+    font-family: Tajawal;
+    font-weight: 500;
+    color: #6b5138;
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #E8DCC8;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+.diary-card .text {
+    font-family: Tajawal;
+
+    color: #4A3629;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+nav a:hover {
+
+    border-radius: 12px;
+    color: rgb(24, 21, 21);
+    ;
+    text-decoration: underline;
+    animation-name: grew3;
+    animation-duration: 2s;
+}
+
+
+
+
+
+.diary-card:hover {
+
+    border-radius: 12px;
+    color: rgb(24, 21, 21);
+    transition: 0.3s;
+}
+footer a:hover {
+
+    border-radius: 12px;
+    color: rgb(24, 21, 21);
+    
+    transform: translateY(-5px);
+}
+
+@keyframes grew2 {
+    100% {
+        transform: scale(1.40, 1.40)
+    }
+}
+
+@keyframes grew3 {
+    100% {
+        transform: scale(1.25, 1.25)
+    }
+}
